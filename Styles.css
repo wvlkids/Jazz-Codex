@@ -1,0 +1,42 @@
+body {
+    font-family: 'Merienda', cursive;
+    padding: 0;
+    margin: 0;
+    
+}
+#header {
+    background: white;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid black
+} 
+
+#header h1,
+#header p {
+    margin: 0;
+}
+
+#content {
+    background: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.list {
+    display: none;
+}
+.list a {
+    color: #8F00FF;
+    text-decoration: none;
+    transition: color .3s;
+
+}
+.list a:hover {
+    color: black;
+}
+
+.list.enabled {
+    display: block;
+}
